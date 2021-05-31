@@ -1,0 +1,14 @@
+<div class="container">
+    <h1 class="display-1 mt-3 mb-3">Cocktails</h1>
+
+    <table class="table table-dark table-striped table-hover mb-5">
+        <tbody>
+            <tr *ngFor="let cocktail of cocktails" [routerLink]="['/cocktail', cocktail.idDrink]" class="cursor-pointer animate__animated animate__fadeIn" role="button">
+                <td>
+                   {{cocktail.strDrink}}
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
