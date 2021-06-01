@@ -13,7 +13,7 @@
                   <h5 class="card-title">{{cocktail.strDrink}}</h5>
                   <h6 class="card-subtitle mb-3 text-muted">{{cocktail.strCategory}}</h6>
                   <p class="card-text mb-1"><strong>Ingredients:</strong></p>
-                  <ul class="list-group list-group-flush list-group-numbered mb-3" style="width: 40%;">
+                  <ul class="list-group list-group-flush list-group-numbered mb-3">
                       <li class="list-group-item" *ngIf="cocktail.strIngredient1">{{cocktail.strIngredient1}}</li>
                       <li class="list-group-item" *ngIf="cocktail.strIngredient2">{{cocktail.strIngredient2}}</li>
                       <li class="list-group-item" *ngIf="cocktail.strIngredient3">{{cocktail.strIngredient3}}</li>
@@ -37,7 +37,7 @@
           </div>
     </div>
 
-    <div class="mt-5 d-flex justify-content-center">
+    <div class="mt-5 mb-5 d-flex justify-content-center">
         <a routerLink="/" class="btn btn-info">Back</a>
     </div>
     
