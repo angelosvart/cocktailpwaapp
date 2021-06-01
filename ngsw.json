@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1622545463543,
+  "index": "/cocktailpwaapp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/cocktailpwaapp/favicon.ico",
+        "/cocktailpwaapp/index.html",
+        "/cocktailpwaapp/main.25478db9066e0a1bf65f.js",
+        "/cocktailpwaapp/manifest.webmanifest",
+        "/cocktailpwaapp/polyfills.00096ed7d93ed26ee6df.js",
+        "/cocktailpwaapp/runtime.7b63b9fd40098a2e8207.js",
+        "/cocktailpwaapp/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": [
+        "https:\\/\\/cdn\\.jsdelivr\\.net\\/npm\\/bootstrap@5\\.0\\.1\\/dist\\/css\\/bootstrap\\.min\\.css"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/cocktailpwaapp/assets/css/animate.css",
+        "/cocktailpwaapp/assets/icons/icon-128x128.png",
+        "/cocktailpwaapp/assets/icons/icon-144x144.png",
+        "/cocktailpwaapp/assets/icons/icon-152x152.png",
+        "/cocktailpwaapp/assets/icons/icon-192x192.png",
+        "/cocktailpwaapp/assets/icons/icon-384x384.png",
+        "/cocktailpwaapp/assets/icons/icon-512x512.png",
+        "/cocktailpwaapp/assets/icons/icon-72x72.png",
+        "/cocktailpwaapp/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "cocktails-api",
+      "patterns": [
+        "https:\\/\\/www\\.thecocktaildb\\.com\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 20,
+      "maxAge": 86400000,
+      "timeoutMs": 1000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/cocktailpwaapp/assets/css/animate.css": "bc96496831f4df311443b8e3d76cfc17db53a988",
+    "/cocktailpwaapp/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/cocktailpwaapp/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/cocktailpwaapp/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/cocktailpwaapp/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/cocktailpwaapp/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/cocktailpwaapp/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/cocktailpwaapp/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/cocktailpwaapp/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/cocktailpwaapp/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/cocktailpwaapp/index.html": "292a860dd71d29d6b73e3e5139535d381c15bf37",
+    "/cocktailpwaapp/main.25478db9066e0a1bf65f.js": "825cab71907870d4d666a01893732b8f270af88c",
+    "/cocktailpwaapp/manifest.webmanifest": "4cf54d54f6fe4a0736380c580bb94cd9bd4b3215",
+    "/cocktailpwaapp/polyfills.00096ed7d93ed26ee6df.js": "cfe7b0b53e96bff9ba384b4d497c08475a617d62",
+    "/cocktailpwaapp/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/cocktailpwaapp/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
